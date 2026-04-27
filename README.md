@@ -77,7 +77,7 @@ ev-battery-eda/
 ## How to Run
 
 ```bash
-git clone https://github.com/yourusername/ev-battery-eda
+git clone https://github.com/bimatmajanpkp/ev-battery-eda
 cd ev-battery-eda
 pip install -r requirements.txt
 jupyter notebook notebook/ev_battery_eda.ipynb
