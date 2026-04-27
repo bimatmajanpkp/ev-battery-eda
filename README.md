@@ -25,8 +25,7 @@ An end-to-end EDA exploring what causes EV battery health (SoH) to decline — c
 **The worst combination:** High fast-charge ratio + high operating temperature consistently produced the lowest SoH values across all battery types.
 
 
-<img width="1062" height="754" alt="worst combi" src="https://github.com/user-attachments/assets/b2d1c8d1-4929-4fcf-b890-f2c21e1c7b43" />
-Heatmap: Temperature × Fast Charge vs SoH
+![Heatmap: Temperature × Fast Charge vs SoH](images/track4_worst_combination.png)
 
 ---
 
