@@ -16,11 +16,17 @@ An end-to-end EDA exploring what causes EV battery health (SoH) to decline — c
 
 | Factor | Correlation with SoH | Interpretation |
 |---|---|---|
-| Internal Resistance | r = −0.87 | Strongest predictor of degradation |
-| Fast Charge Ratio | r = −0.71 | Frequent fast charging accelerates decline |
-| Avg Temperature | r = −0.58 | High heat worsens long-term health |
-| Charging Cycles | r = −0.64 | More cycles = lower SoH (expected) |
+| Internal Resistance | r = −0.97 | Strongest predictor of degradation |
+| Charging Cycles | r = −0.87 | More cycles = lower SoH (expected) |
+| Fast Charge Ratio | r = −0.15 | Frequent fast charging accelerates decline |
+| Avg Temperature | r = −0.11 | High heat worsens long-term health |
 | Anomaly rate | ~4.8% | Vehicles degrading faster than cycle count predicts |
+
+> **Note on correlation strength:** Fast charge ratio and average temperature 
+> show weaker correlations than real-world battery research would suggest. 
+> This is consistent with the synthetic nature of the dataset — the simulation 
+> appears to prioritize charging cycles and internal resistance as the primary 
+> degradation drivers.
 
 **The worst combination:** High fast-charge ratio + high operating temperature consistently produced the lowest SoH values across all battery types.
 
