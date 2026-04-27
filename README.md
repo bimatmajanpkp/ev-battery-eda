@@ -94,4 +94,4 @@ jupyter notebook notebook/ev_battery_eda.ipynb
 
 Cloud Engineer Apprentice | AWS Certified Solutions Architect (Associate) + Cloud Practitioner  
 Open to data engineering and cloud roles in Japan 🇯🇵  
-[LinkedIn](#) · [Kaggle](#)
+[LinkedIn](https://www.linkedin.com/in/bimatmaja/) · [Kaggle](https://www.kaggle.com/bimatmajanpkp)
